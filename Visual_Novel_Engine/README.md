@@ -20,13 +20,17 @@ Assignment 5 project: an AI-powered visual novel engine built with Streamlit, Ge
 
 ```text
 Visual_Novel_Engine/
-├── app.py
-├── requirements.txt
-├── README.md
-└── .gitignore
+|-- app.py
+|-- requirements.txt
+|-- README.md
+`-- .gitignore
 ```
 
 Generated files such as audio narration, virtual environments, cache folders, and `.env` files are ignored by Git.
+
+## Demo Video
+
+[Watch the demo video](https://drive.google.com/file/d/1mMR6Exmvsqh2WRoHcBhNJXxkRUWn9w_i/view?usp=sharing)
 
 ## Setup
 
