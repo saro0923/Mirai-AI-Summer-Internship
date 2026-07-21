@@ -2,7 +2,7 @@
 
 Welcome to my internship repository for the **MirAI School of Technology – Virtual Summer Internship 2026 (AI Builder Track)**.
 
-This repository contains all assignments completed during the internship, covering Streamlit application development, AI chatbots, state management, and AI image generation.
+This repository contains all assignments completed during the internship, covering Streamlit application development, AI chatbots, session state management, AI image generation, and AI-powered interactive storytelling.
 
 ---
 
@@ -13,6 +13,7 @@ Mirai-AI-Summer-Internship/
 │
 ├── AI_Image_Studio/
 ├── AI_Multiverse_Chatbot/
+├── AI_Visual_Novel/
 └── Identity_Echo_Interface/
 ```
 
@@ -26,6 +27,7 @@ Mirai-AI-Summer-Internship/
 | Assignment 2 | AI Multiverse Chatbot | ✅ Completed |
 | Assignment 3 | Memory Vault (Stateful Chatbot) | ✅ Completed |
 | Assignment 4 | AI Image Studio | ✅ Completed |
+| Assignment 5 | AI Visual Novel Engine | ✅ Completed |
 
 ---
 
@@ -234,8 +236,8 @@ Automatically improves prompts by adding:
 - masterpiece
 - 8k resolution
 - highly detailed
-- trending on artstation
-- unreal engine 5 render
+- trending on ArtStation
+- Unreal Engine 5 render
 
 ### 🎲 Surprise Me
 
@@ -276,6 +278,96 @@ Assignment demonstration video.
 
 ---
 
+# 🎮 Assignment 5: AI Visual Novel Engine
+
+## Objective
+
+Build an AI-powered **Interactive Visual Novel Engine** using **Google Gemini AI**, **Pollinations AI**, **Google Text-to-Speech (gTTS)**, and **Streamlit Session State**.
+
+The application generates interactive AI stories with dynamic choices, AI-generated scene illustrations, voice narration, and persistent story history, allowing users to experience a complete "Choose Your Own Adventure" journey.
+
+## Features
+
+### 📖 AI Story Generation
+
+Generate story scenes using Google Gemini AI.
+
+### 🎭 Story Genres
+
+Choose from multiple genres:
+
+- Fantasy
+- Sci-Fi
+- Horror
+- Adventure
+- Mystery
+
+### 🎨 Art Styles
+
+Choose from multiple visual styles:
+
+- Anime
+- Realistic
+- Pixel Art
+- Oil Painting
+- Cyberpunk
+
+### 🖼️ AI Scene Generation
+
+Generate AI illustrations for every story scene using Pollinations AI.
+
+### 🔊 AI Voice Narration
+
+Convert each story scene into speech using Google Text-to-Speech (gTTS).
+
+### 🎮 Interactive Story Choices
+
+Continue the adventure through dynamically generated story choices.
+
+### 🧠 Story Memory
+
+Maintain story progression using Streamlit Session State.
+
+### 📚 Story History
+
+Display all previously generated story scenes.
+
+### 🔄 Reset Story
+
+Restart the adventure with a single click.
+
+## Folder Structure
+
+```text
+AI_Visual_Novel/
+│
+├── app.py
+├── README.md
+├── requirements.txt
+├── .gitignore
+└── Assignment5_Demo.mp4
+```
+
+### Files
+
+#### app.py
+
+Main AI Visual Novel Engine application.
+
+#### requirements.txt
+
+Project dependencies.
+
+#### README.md
+
+Project documentation.
+
+#### Assignment5_Demo.mp4
+
+Assignment demonstration video.
+
+---
+
 # 🛠️ Technologies Used
 
 ## Programming Language
@@ -290,12 +382,16 @@ Assignment demonstration video.
 
 - Google Gemini AI
 - Pollinations AI
+- Google Text-to-Speech (gTTS)
 
 ## Libraries
 
-- requests
-- python-dotenv
 - streamlit
+- google-genai
+- python-dotenv
+- requests
+- Pillow
+- gTTS
 
 ## Tools
 
@@ -317,11 +413,19 @@ Through these assignments, I learned:
 
 ✅ Session State Management
 
-✅ Generative AI Integration
+✅ Google Gemini AI Integration
 
 ✅ Prompt Engineering
 
-✅ Image Generation
+✅ AI Chatbot Development
+
+✅ AI Image Generation
+
+✅ Interactive Story Generation
+
+✅ Text-to-Speech Integration
+
+✅ Streamlit State Management
 
 ✅ Git & GitHub Workflow
 
@@ -333,9 +437,9 @@ Through these assignments, I learned:
 
 **Saravanan S**
 
-B.Tech CSE (AI & ML)
+**B.Tech CSE (AI & ML)**
 
-SRM Institute of Science and Technology
+**SRM Institute of Science and Technology**
 
 ### LinkedIn
 
